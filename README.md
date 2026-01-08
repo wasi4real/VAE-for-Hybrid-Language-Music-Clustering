@@ -29,6 +29,18 @@ This project addresses the challenge of cross-lingual music clustering by implem
 - Spectral Clustering
 - PCA + K-Means
 
+## 📝 Dataset Information
+
+### Sources
+* **GTZAN:** 1,000 English tracks across 10 genres (100 per genre)
+* **BanglaBeats:** 16,170 Bangla tracks across 8 genres
+
+### Preprocessing
+* **Balanced sampling:** 1,000 tracks from each language
+* **Audio:** 3-second segments, 22050Hz, MFCC extraction
+* **Text:** Audio-derived descriptions (tempo, energy, brightness, rhythm)
+* **Features:** StandardScaler normalization
+
 ## 📊 Results
 
 ### Key Metrics (Top Performers)
