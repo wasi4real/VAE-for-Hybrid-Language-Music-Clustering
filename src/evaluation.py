@@ -1,6 +1,5 @@
 """All Metrics"""
 
-# ===== EVALUATION METRICS =====
 clustering_results = {
     'Raw K-Means': labels_raw,
     'PCA + K-Means': labels_pca,
