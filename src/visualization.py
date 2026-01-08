@@ -1,4 +1,4 @@
-# ===== 14. VISUALIZATIONS =====
+# ==== 14. VISUALIZATIONS ====
 
 # UMAP visualization
 fig, axes = plt.subplots(3, 3, figsize=(15, 15))
