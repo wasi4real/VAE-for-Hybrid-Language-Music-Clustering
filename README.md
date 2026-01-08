@@ -46,3 +46,24 @@ This project addresses the challenge of cross-lingual music clustering by implem
 3. Agglomerative clustering on hybrid features performs best
 4. Conditional VAE achieves best latent space organization but lower reconstruction
 
+## 🗂️ Repository Structure
+
+```text
+CSE425_Project/
+├── README.md
+├── data/
+│   ├── raw/ (empty - datasets downloaded via kagglehub)
+│   └── processed/ (final dataframe: hybrid_metadata.csv, scalers, latent_features.pkl)
+├── notebooks/
+│   └── CSE425_Project_Final.ipynb (full notebook)
+├── src/
+│   ├── data_loader.py (dataset loading)
+│   ├── feature_extractor.py (MFCC + text features)
+│   ├── vae_models.py (BasicVAE, ConvVAE, ConditionalVAE classes)
+│   ├── clustering.py (all clustering methods)
+│   ├── evaluation.py (metrics calculation)
+├── models/ (model params: basic_vae.pth, conv_vae.pth, cond_vae.pth, autoencoder.pth)
+├── results/
+│   ├── metrics/ (CSV files)
+│   └── plots/ (PNG images)
+└── deployment/ (final consolidation)
