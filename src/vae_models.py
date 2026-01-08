@@ -204,8 +204,8 @@ with torch.no_grad():
 
 print(f"Conditional Beta-VAE trained, latent features: {latent_cond.shape}")
 
-"""Autoencoder + K-Means for Comparison"""
 
+"""Autoencoder + K-Means for Comparison"""
 # ===== AUTOENCODER FOR COMPARISON =====
 class SimpleAutoencoder(nn.Module):
     def __init__(self, input_dim, latent_dim=16):
