@@ -105,7 +105,6 @@ for i in range(min(3, len(df_final))):
 
 """Lyric/Text Feature Extraction"""
 
-# ===== 6. TEXT EMBEDDINGS FROM AUDIO-DERIVED DESCRIPTIONS =====
 # Generate text embeddings from audio-derived descriptions only
 lyric_model = SentenceTransformer('paraphrase-multilingual-MiniLM-L12-v2')
 
