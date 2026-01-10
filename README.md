@@ -76,6 +76,7 @@ CSE425_Project/
 │   ├── vae_models.py (BasicVAE, ConvVAE, ConditionalVAE classes)
 │   ├── clustering.py (all clustering methods)
 │   ├── evaluation.py (metrics calculation)
+│   ├── add_experiments.py (Extras: hyperparameter tuning, disentangled latent space, multi-modal fusion)
 ├── models/ (model params: basic_vae.pth, conv_vae.pth, cond_vae.pth, autoencoder.pth)
 ├── results/
 │   ├── metrics/ (CSV files)
