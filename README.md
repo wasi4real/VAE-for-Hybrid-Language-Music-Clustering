@@ -70,6 +70,8 @@ CSE425_Project/
 │   └── CSE425_Project_Final.ipynb (full notebook)
 ├── src/
 │   ├── data_loader.py (dataset loading)
+│   ├── data_prep.py (feature Normalization & encoding)
+│   ├── visualization.py (all plotting functions)
 │   ├── feature_extractor.py (MFCC + text features)
 │   ├── vae_models.py (BasicVAE, ConvVAE, ConditionalVAE classes)
 │   ├── clustering.py (all clustering methods)
